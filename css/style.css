@@ -1,0 +1,119 @@
+
+
+main {
+    height: 100vh;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+/* 
+crÃ©er des variables */
+:root {
+    --title-color: #ffffff;
+    --text-color: #000000;
+}
+/* image font le maximum de la taille de leur contenant et ne depasse pas du contenant */
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Converti 10 px en 1 rem */
+html {
+    font-size: 62.5%;
+}
+
+
+/* reset style ul for header */
+.header ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    list-style: none;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    background-color: crimson;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.header a {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.header img {
+    float:left ;
+    height: 15rem;
+    width: auto;
+}
+
+.header li {
+    color: black;
+}
+
+.header ul {
+    display: flex;
+    padding: 1rem;
+}
+
+.header ul>li {
+    margin-left: 5rem;
+}
+
+.sidebar {
+    background-color: rgb(8, 107, 194);
+    height:100vh ;
+    width: 30%;
+    float: left;
+    border-radius: 25px;
+}
+
+.section {
+    background-color:aquamarine;
+    height:100vh ;
+    width: 70%;
+    border-radius: 25px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: stretch;
+}
+
+.footer {
+    background-color: crimson;
+    height: 20vh;
+}
+
+table,th,td {
+    border: #000000 1px solid;
+    padding: 1rem;
+}
+
+tr:nth-child(even){
+    background-color: #ffffff;
+}
+
+tbody>tr:hover {
+    background-color: brown;
+}
+
+table {
+    margin: 2rem;
+}
